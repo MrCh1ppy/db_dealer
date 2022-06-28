@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: rhptuser
+    password: yG64auYm!SKT
+    url: jdbc:mysql://172.20.186.195:17777/vaccine
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis:
+  type-aliases-package: com.example.db_dealer.pojo
+  mapper-locations: classpath:mapper/*.xml
